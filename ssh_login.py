@@ -113,7 +113,7 @@ class Sshell:
 def LoginSsh(input):
     with open('config.json', 'r') as f:
         server_configs = json.loads(f.read())
-    print(server_configs)
+    # print(server_configs)
     # 创建线程列表
     thread_pool = []
     for server_config in server_configs:

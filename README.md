@@ -35,5 +35,5 @@ https://github.com/shadowsocks/shadowsocks/wiki/Configuration-via-Config-File
 # 使用
 * 配置config.json文件，服务器账户需要root权限
 * cd SSH_To_Shadowsocks
-  python ss_run.py
+  python ssh    _run.py
   
